@@ -1,0 +1,126 @@
+# Spanish translations for ipm package.
+# Copyright (C) 2023 THE ipm'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ipm package.
+# Anton <anton@anton-lenovo-v15-g2-itl>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ipm 2324-p1-grupo_57\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 16:25+0100\n"
+"PO-Revision-Date: 2023-10-31 16:38+0100\n"
+"Last-Translator: Anton <anton@anton-lenovo-v15-g2-itl>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Presenter.py:72 src/Presenter.py:88
+msgid ""
+"Error: Su busqueda no se ha podido realizar\n"
+"\n"
+"Introduzca un nombre valido e intentelo de nuevo"
+msgstr ""
+"Error: Su busqueda no se ha podido realizar\n"
+"\n"
+"Introduzca un nombre valido e intentelo de nuevo"
+
+#: src/Presenter.py:75 src/Presenter.py:91
+msgid "Error: Compruebe su conexion a internet y pruebe de nuevo"
+msgstr "Error: Compruebe su conexion a internet y pruebe de nuevo"
+
+#: src/Presenter.py:110 src/Presenter.py:127
+msgid ""
+"Error: El campo de busqueda esta vacio\n"
+"\n"
+"Introduzca un nombre valido e intentelo de nuevo"
+msgstr ""
+"Error: El campo de busqueda esta vacio\n"
+"\n"
+"Introduzca un nombre valido e intentelo de nuevo"
+
+#: src/Vista.py:17
+msgid "App Cocteles"
+msgstr "App Cocteles"
+
+#: src/Vista.py:34
+msgid "Cocteles"
+msgstr "Cocteles"
+
+#: src/Vista.py:38
+msgid "Ingredientes"
+msgstr "Ingredientes"
+
+#: src/Vista.py:82
+msgid "ERROR"
+msgstr "ERROR"
+
+#: src/Vista.py:94
+msgid "OK"
+msgstr "OK"
+
+#: src/Vista.py:102
+msgid "Busqueda Cocteles"
+msgstr "Busqueda Cocteles"
+
+#: src/Vista.py:113
+msgid "Buscador de cocteles"
+msgstr "Buscador de cocteles"
+
+#: src/Vista.py:117 src/Vista.py:201
+msgid "Buscar..."
+msgstr "Buscar..."
+
+#: src/Vista.py:119 src/Vista.py:203 src/Vista.py:307 src/Vista.py:381
+msgid "Menu principal"
+msgstr "Menu principal"
+
+#: src/Vista.py:186
+msgid "Busqueda Ingredientes"
+msgstr "Busqueda Ingredientes"
+
+#: src/Vista.py:197
+msgid "Buscador de ingredientes"
+msgstr "Buscador de ingredientes"
+
+#: src/Vista.py:268 src/Vista.py:347
+msgid "Información sobre "
+msgstr "Información sobre "
+
+#: src/Vista.py:282
+msgid "<u>Ingredientes de este coctel</u>\n"
+msgstr "<u>Ingredientes de este coctel</u>\n"
+
+#: src/Vista.py:357
+msgid "<u>Cocteles con este ingrediente</u>\n"
+msgstr "<u>Cocteles con este ingrediente</u>\n"
+
+#: src/Vista.py:374
+msgid "Tipo: "
+msgstr "Tipo: "
+
+#: src/Vista.py:375
+msgid "Alcohol?: "
+msgstr "Alcohol?: "
+
+#: src/Vista.py:426
+msgid "ESPERA"
+msgstr "ESPERA"
+
+#: src/Vista.py:427
+msgid "<b>Cargando...</b>"
+msgstr "<b>Cargando...</b>"
+
+#: src/Modelo.py:72
+msgid "fallo"
+msgstr "fallo"
+
+#: src/Modelo.py:76 src/Modelo.py:114
+msgid "fallo2"
+msgstr "fallo2"
+
+#: src/Modelo.py:102
+msgid "Desconocido"
+msgstr "Desconocido"

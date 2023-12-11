@@ -1,5 +1,7 @@
 # IPM-UDC
 
+Cada práctica conta 1.28 -> 3.84 + 0.16(practica invidual inicio curso) = 4
+
 ### **Notas:**
 
 P1:
@@ -12,7 +14,7 @@ Tarea3:16/16
 
 Defensa:0.75/0.8
 
-Total:1.19
+Total:1.19/1.28
 
 
 P2:

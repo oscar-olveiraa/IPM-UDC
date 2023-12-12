@@ -23,15 +23,15 @@ Tarea1:13/16
 
 Tarea2:16/16
 
-Tarea3:
+Tarea3:15/16
 
-Defensa
+Defensa:
 
 Total:
 
 P3:
 
-Tarea1:
+Tarea1:13/16
 
 Tarea2:
 

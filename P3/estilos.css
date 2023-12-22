@@ -1,0 +1,619 @@
+/* Estilos para pantallas pequenas (por exemplo, móvil) */
+@media only screen and (max-width: 600px) {
+    .titulo{
+        flex: 1;
+        word-wrap: break-word;
+        color: #a53;
+        font-size: calc(1.5rem + 1vw);
+        margin-top: 4%;
+        margin-bottom:2%;
+        text-align: center;
+    }
+
+    .desplegable{
+        display: block;
+        width: 70%; 
+        padding:3%;
+        font-size: 14px; 
+        margin-top: 6%;
+        margin-bottom: 5%;
+    }
+
+    .container_func{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 100px;
+        margin-left: 6%;
+        margin-right: 15%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        top: 45px;
+        opacity: 1;
+        background-color: #fff;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .botones_func{
+        display: none; 
+    }
+
+    .container_accion{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 100px;
+        margin-left: 6%;
+        margin-right: 10%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        top: 140px;
+        opacity: 1;
+        background-color: #fff;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .botones_editar{
+        flex: 1;
+        display: block;
+        border: 2px solid #000;
+        background-color: rgba(164, 242, 69, 0.767);
+        opacity: 1;
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 20%;
+        margin-left: 2%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        text-overflow: ellipsis;   
+    }
+
+    .boton_añadir_pc{
+        display: none;
+    }
+
+    .scroll_container{
+        width: 80%;
+        margin-top: 275px;
+        margin-bottom: 100px;
+        height: flex;
+        overflow-y: scroll;
+        border: 1px solid #ccc;
+        margin-right: 10%;
+        margin-left: 10%;
+        display:block;
+    }
+
+
+    .container_final{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 9%;
+        margin-right: 9%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        bottom: 0;
+        opacity: 1;
+        background-color: #fff;
+    }
+
+    .boton{
+        padding: 10px;
+        flex: 1;
+        display: flex;
+        border: 2px solid #000;
+        background-color: rgba(151, 147, 147, 0.767);;
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 80%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        display: block;
+        font-size: 20px;
+    }     
+
+    /*---FORMULARIO---*/
+    
+    .texto_opcional {
+        margin-top: 40px;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .texto_entrada{
+        width:90%;
+        height: 20px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        position: relative;   
+    }
+
+    #popup-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border: 2px solid #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 10000; 
+        width: 80%;    
+    }
+
+}
+  
+  /* Estilos para pantallas medianas (por exemplo, tabletas) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .titulo{
+        flex: 1;
+        word-wrap: break-word;
+        color: #a53;
+        font-size: calc(1.5rem + 1vw);
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .desplegable{
+        display: block;
+        width: 50%; 
+        padding:2%;
+        font-size: 16px;  
+        margin-top: 7%;
+        margin-bottom: 8%; 
+    }
+
+    .container_func{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 120px;
+        margin-left: 7%;
+        margin-right: 10%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        top: 45px;
+        opacity: 1;
+        background-color: #fff;
+        align-items: center;
+        z-index: 2;   
+    }
+
+    .botones_func{
+        display: none;
+    }
+
+    .container_accion{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 100px;
+        margin-left: 7%;
+        margin-right: 8%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        top: 160px;
+        opacity: 1;
+        background-color: #fff;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .botones_editar{
+        flex: 1;
+        display: block;
+        border: 2px solid #000;
+        background-color: rgba(164, 242, 69, 0.767);
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-overflow: ellipsis;   
+    }
+
+    .boton_añadir_pc{
+        display: none;
+    }
+
+    .scroll_container{
+        width: 80%;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        height: flex; 
+        overflow-y: scroll;
+        border: 1px solid #ccc;
+        margin-right: 10%;
+        margin-left: 10%;
+        display: block;
+    }
+
+    .boton_borrar{
+        display: flex;
+    }
+
+    .container_final{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 9%;
+        margin-right: 9%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        bottom: 0;
+        opacity: 1;
+        background-color: #fff;
+    }
+
+    .boton{
+        padding: 10px;
+        flex: 1;
+        display: flex;
+        border: 2px solid #000;
+        background-color: rgba(151, 147, 147, 0.767);
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: block;
+        font-size: 25px;
+    }
+   
+
+    /*---FORMULARIO---*/
+
+    
+    .texto_opcional {
+        margin-top: 40px;
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .texto_entrada{
+        width:90%;
+        height: 20px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: none; 
+    }
+
+    #popup-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border: 2px solid #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 10000;  
+        width: 60%;   
+    }
+  }
+  
+  /* Estilos para pantallas grandes (por exemplo, escritorios) */
+  @media only screen and (min-width: 1025px) {
+    .titulo{
+        flex: 1;
+        word-wrap: break-word;
+        color: #a53;
+        font-size: calc(1.5rem + 1vw);
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .desplegable{
+        display: none;    
+    }
+
+    .container_func{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 100px;
+        margin-left: 7%;
+        margin-right: 10%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        top: 60px;
+        opacity: 1;
+        background-color: #fff;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .botones_func{
+        flex: 1;
+        display: block;
+        border: 2px solid #000;
+        background-color: rgba(117, 190, 174, 0.767);
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-overflow: ellipsis; 
+    } 
+
+    .container_accion{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 100px;
+        margin-left: 7%;
+        margin-right: 8%;
+        position: fixed;
+        overflow: hidden;
+        justify-content: space-around;
+        max-width: 100%; 
+        top: 160px;
+        opacity: 1;
+        background-color: #fff;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .botones_editar{
+        flex: 1;
+        display: block;
+        border: 2px solid #000;
+        background-color: rgba(164, 242, 69, 0.767);
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-overflow: ellipsis;   
+    }
+
+    .boton_añadir_pc{
+        flex: 1;
+        display: flex;
+        border: 2px solid #000;
+        background-color: rgba(151, 147, 147, 0.767);
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: block;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .boton_borrar{
+        display: flex;
+    }
+    
+    .scroll_container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 275px;
+        margin-bottom: 100px;
+        height: flex;
+    }
+
+    .container_final{
+        display: none;
+    }
+
+    .boton{
+        display: none;
+    }
+
+    /*---FORMULARIO---*/
+    
+    .texto_opcional {
+        margin-top: 40px;
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .texto_entrada{
+        width:90%;
+        height: 20px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        position: relative;   
+    }
+
+    #popup-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border: 2px solid #000000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 10000; 
+        width: 50%;    
+    }
+}
+
+.container_cabecera{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: 10%;
+    position: fixed;
+    overflow: hidden;
+    justify-content: space-around;
+    max-width: 100%; 
+    top: 0;
+    opacity: 1;
+    background-color: #fff;
+    width: 85%;
+    text-align: center;   
+    z-index: 3;     
+}
+
+.container_info{ 
+    align-items: center;
+    margin-top:4px;
+    margin-left: 7%;
+    margin-right: 10%;
+}
+
+.container_fotos{
+    width: 7%;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+    margin-left: 2%;
+
+}
+
+.container_fotos img{
+    width: 95%;
+    height: auto;
+    display: block;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 100%;
+}
+
+
+.container{
+    display: flex; 
+    align-items: center;
+}
+
+.linea_divisoria {
+    border: 0.5px solid #555;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nombre_tarea {
+    flex: 1;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: calc(1rem + 0.5vw);
+    margin-top:10px;
+    
+}
+
+.fecha {
+    display: inline-block;
+    margin-left: 10px;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: calc(1rem + 0.5vw);
+    margin-left: 5%;
+}
+
+.descripcion{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: calc(1rem + 0.5vw);
+    margin-right: 5%;
+}
+
+.descripcionLarga {
+    display: inline-block; 
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: calc(1rem + 0.5vw);
+    color: #555;
+    margin-top: 5px;
+}
+ 
+.boton_borrar{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+/*---FORMULARIO---*/
+
+.linea_formulario {
+    border: 1px solid #000;
+}
+
+.container_linea {
+    margin-left: 20%;
+    margin-top: 80px;
+    margin-right: 20%;
+}
+
+.container_añadir_tarea{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton_añadir_form{
+    height: 50px;
+    width: 200px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+ }
+
+

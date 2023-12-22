@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Lista de tareas</title>
+</head>
+<body>
+    
+    <header role="banner" aria-label="Titulo indicando tareas todavía activas">
+        <div class="container_cabecera"> 
+            <div class="titulo"> Tareas: 3 todavía activas</div>
+        </div>
+    </header>
+    
+    <div>
+        <div class="container_func">
+            <div class="botones_func" title="Mostrar todas las tareas"><p>Mostrar todas</p></div>
+            <div class="botones_func" title="Mostrar solo las tareas activas"><p>Mostrar solo activas</p></div>
+            <div class="botones_func" title="Mostrar las tareas completadas"><p>Mostrar solo completadas</p></div>
+
+            <select class="desplegable" aria-label="Seleccionar filtro de tareas" aria-expanded="false">
+                <option value="option1">Mostrar todas las tareas </option>
+                <option value="option1">Mostrar las tareas activas</option>
+                <option value="option1">Mostrar las tareas completadas</option>
+            </select>
+        </div>
+        <div class="container_accion">
+            <div class="botones_editar" title="Marcar todas las tareas como completadas"><p>Marcar como completadas</p></div>
+            <button class="boton_añadir_pc" title="Añadir tarea" role="button" onclick="mostrarPopUp()">Añadir tarea</button>
+            <div class="botones_editar" title="Eliminar las tareas completadas"><p>Eliminar las completadas</p></div>
+        </div>
+      
+        <div id="overlay"></div>
+        <div id="popup-container" role="dialog">
+            <form id="formulario" role="form"> 
+                <div class="container_linea">
+                    <input class="texto_entrada" type="text" id="nombreTarea" name="nombreTarea" placeholder="Nombre de la tarea" autocomplete="off">
+                    <div class="linea_formulario"></div>
+                </div>
+        
+                <div class="container_linea">
+                    <input class="texto_entrada" type="text" id="descripcionBreve" name="descripcionBreve" placeholder="Descripción" autocomplete="off">
+                    <div class="linea_formulario"></div>
+                </div> 
+            
+                <div class="container_linea">
+                    <input class="texto_entrada" type="text" id="fechaLimite" name="fechaLimite" placeholder="* Fecha límite" autocomplete="off">
+                    <div class="linea_formulario"></div>
+                </div>
+        
+                <div class="container_linea">
+                    <input class="texto_entrada" type="text" id="descripcionLarga" name="descripcionLarga" placeholder="* Descripción larga" autocomplete="off">
+                    <div class="linea_formulario"></div>
+                </div>
+            </form>
+                
+            <div class="texto_opcional">* (Opcional)</div>
+            
+            <div class="container_añadir_tarea">
+                <p title="añadir tarea a la lista"><button class="boton_añadir_form" aria-label="Añadir tarea a la lista" role="button" onclick="agregarTarea2()">Añadir Tarea</button></p>
+            </div>
+        </div>
+      
+        <div class="scroll_container" role="list" id="contenedor_lista"></div>
+        <div class="container_final">
+            <button class="boton" aria-label="Añadir tarea" role="button" onclick="mostrarPopUp()">Añadir tarea</button>
+        </div>
+    </div>
+    
+
+    <script src="funciones.js"></script>
+</body>
+</html>

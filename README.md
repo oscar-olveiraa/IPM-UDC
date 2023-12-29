@@ -12,7 +12,7 @@ Cada práctica conta **1.28 x 3** prácticas -> 3.84 + 0.16 (practica invidual i
 |                                                                       |
 |Tarea 3: 16/16         |    Tarea 3: 15/16         |    Tarea 3: 16/16           |
 |                     |                         |                       |
-|Defensa: 75/80        |    Defensa: 77/80        |    Defensa: 77/88          |
+|Defensa: 75/80        |    Defensa: 77/80        |    Defensa: 77/80          |
 |                                                                       |
 |**Total: 1.19/1.28**      |    **Total: 1.21/1.28**      |    **Total: 1.18/1.28**             |
 
